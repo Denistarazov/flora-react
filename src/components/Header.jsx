@@ -40,8 +40,7 @@ export default function Header({ activeSection }) {
               onClick={() => scrollTo('hero')}
               aria-label="Флория — на главную"
             >
-              <span className="nav__logo-icon" aria-hidden="true">🌸</span>
-              <span className="nav__logo-text">Фло<span>рия</span></span>
+              <Logo />
             </button>
 
             <ul className="nav__list" role="list">
@@ -108,6 +107,32 @@ export default function Header({ activeSection }) {
         </div>
       )}
     </>
+  );
+}
+
+function Logo() {
+  return (
+    <span className="nav__logo-inner" aria-hidden="true">
+      {/* SVG flower mark */}
+      <svg className="nav__logo-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        {/* Petals */}
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#b5405e" opacity="0.9" transform="rotate(0 18 18)"/>
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#c95c78" opacity="0.8" transform="rotate(60 18 18)"/>
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#b5405e" opacity="0.9" transform="rotate(120 18 18)"/>
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#c95c78" opacity="0.8" transform="rotate(180 18 18)"/>
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#b5405e" opacity="0.9" transform="rotate(240 18 18)"/>
+        <ellipse cx="18" cy="10" rx="4" ry="7" fill="#c95c78" opacity="0.8" transform="rotate(300 18 18)"/>
+        {/* Center */}
+        <circle cx="18" cy="18" r="5.5" fill="#fce8ee"/>
+        <circle cx="18" cy="18" r="3.5" fill="#f59e0b"/>
+        <circle cx="18" cy="18" r="1.8" fill="#fbbf24"/>
+      </svg>
+
+      {/* Wordmark */}
+      <span className="nav__logo-wordmark">
+        <span className="nav__logo-word">Флор</span><span className="nav__logo-accent">ия</span>
+      </span>
+    </span>
   );
 }
 

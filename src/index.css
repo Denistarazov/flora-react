@@ -209,21 +209,50 @@ ul  { list-style: none; }
 .nav__logo {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
   flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  transition: opacity var(--transition);
 }
 
-.nav__logo-icon { font-size: 1.5rem; line-height: 1; }
+.nav__logo:hover { opacity: 0.85; }
 
-.nav__logo-text {
+.nav__logo-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav__logo-svg {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 3px rgba(181,64,94,.25));
+  transition: transform var(--transition);
+}
+
+.nav__logo:hover .nav__logo-svg {
+  transform: rotate(15deg) scale(1.08);
+}
+
+.nav__logo-wordmark {
+  display: flex;
+  align-items: baseline;
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: var(--color-text);
-  letter-spacing: -.01em;
+  letter-spacing: -.02em;
+  line-height: 1;
 }
 
-.nav__logo-text span { color: var(--color-accent); }
+.nav__logo-word   { color: var(--color-text); }
+.nav__logo-accent {
+  color: var(--color-accent);
+  font-style: italic;
+}
 
 .nav__list {
   display: flex;
