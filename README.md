@@ -1,16 +1,32 @@
-# React + Vite
+# 🌸 Флория — Flower Shop (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful **flower shop web application** built with React and Vite. Features a warm, elegant design perfect for florist businesses — bouquets, arrangements, gifts, and event decoration.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-latest-646CFF?logo=vite)
+![CSS3](https://img.shields.io/badge/CSS3-Custom_Properties-1572B6?logo=css3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌺 **Product catalog** — bouquets, gift baskets, seasonal arrangements
+- 🎨 **Warm, elegant design** — custom CSS with soft floral color palette
+- 📱 **Fully responsive** — mobile-first layout
+- 💐 **Wedding & event decoration** — dedicated section for corporate clients
+- ⚡ **Fast load** — optimized with Vite bundler
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| Framework | React 18 |
+| Build Tool | Vite |
+| Styling | Custom CSS (CSS Variables) |
+| Language | JavaScript (JSX) |
+
+---
+
+## 🚀 Gett
