@@ -29,4 +29,61 @@ A beautiful **flower shop web application** built with React and Vite. Features 
 
 ---
 
-## 🚀 Gett
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/flora-react.git
+cd flora-react
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── App.jsx           # Main application component
+├── components/       # UI components
+├── main.jsx          # Entry point
+└── index.css         # Global styles & CSS variables
+public/               # Static assets
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build        # Production build → /dist
+npm run preview      # Preview production build locally
+```
+
+---
+
+## 🎨 Design Highlights
+
+- Custom color palette: warm ivory backgrounds, rose accents `#b5405e`, forest green `#4a7c6f`
+- Smooth hover transitions and elegant typography
+- Clean card-based product grid
+
+---
+
+## 🎯 Use Cases
+
+- Flower shop websites
+- Florist portfolios
+- Gift & bouquet delivery services
+- Wedding flower ordering platform
+
+---
+
+*Designed for florists who care about beauty 🌷*
